@@ -161,9 +161,9 @@ class OpToHtmlConverter {
 
     type Str2StrType = { (x: string): string };
 
-    if (this.options.inlineStyles) {
-      return [];
-    }
+    //if (this.options.inlineStyles) {
+    //  return [];
+    //}
 
     var propsArr = ['indent', 'align', 'direction', 'font', 'size'];
     if (this.options.allowBackgroundClasses) {
