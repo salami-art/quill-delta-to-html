@@ -103,9 +103,9 @@ var OpToHtmlConverter = (function () {
     };
     OpToHtmlConverter.prototype.getCssClasses = function () {
         var attrs = this.op.attributes;
-        if (this.options.inlineStyles) {
-            return [];
-        }
+        //if (this.options.inlineStyles) {
+        //    return [];
+        //}
         var propsArr = ['indent', 'align', 'direction', 'font', 'size'];
         if (this.options.allowBackgroundClasses) {
             propsArr.push('background');
